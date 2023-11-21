@@ -482,10 +482,6 @@ bionic_cc_defaults {
             },
         },
     },
-
-    lto: {
-        never: true,
-    },
 }
 
 cc_library {
