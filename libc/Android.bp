@@ -1709,6 +1709,7 @@ cc_defaults {
         export_llndk_headers: ["libc_headers"],
     },
     afdo: true,
+    lto_Instr100: true,
 }
 
 // RELEASE_DEPRECATE_RUNTIME_APEX: "# apex" should be converted to "# systemapi"
